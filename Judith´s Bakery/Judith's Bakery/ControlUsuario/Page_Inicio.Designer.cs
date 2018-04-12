@@ -31,15 +31,12 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Page_Inicio));
             this.lbUsuarios = new System.Windows.Forms.Label();
-            this.lbEmpleados = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lbHora = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bt_usuarios = new Bunifu.Framework.UI.BunifuImageButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_usuarios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,21 +44,11 @@
             // 
             this.lbUsuarios.AutoSize = true;
             this.lbUsuarios.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbUsuarios.Location = new System.Drawing.Point(527, 505);
+            this.lbUsuarios.Location = new System.Drawing.Point(514, 505);
             this.lbUsuarios.Name = "lbUsuarios";
-            this.lbUsuarios.Size = new System.Drawing.Size(72, 21);
+            this.lbUsuarios.Size = new System.Drawing.Size(96, 21);
             this.lbUsuarios.TabIndex = 1;
-            this.lbUsuarios.Text = "Usuarios";
-            // 
-            // lbEmpleados
-            // 
-            this.lbEmpleados.AutoSize = true;
-            this.lbEmpleados.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEmpleados.Location = new System.Drawing.Point(23, 505);
-            this.lbEmpleados.Name = "lbEmpleados";
-            this.lbEmpleados.Size = new System.Drawing.Size(96, 21);
-            this.lbEmpleados.TabIndex = 3;
-            this.lbEmpleados.Text = "Empleados";
+            this.lbUsuarios.Text = "Empleados";
             // 
             // label3
             // 
@@ -93,22 +80,6 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // bunifuImageButton2
-            // 
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(22, 414);
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.Size = new System.Drawing.Size(95, 88);
-            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton2.TabIndex = 2;
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Zoom = 10;
-            this.bunifuImageButton2.MouseEnter += new System.EventHandler(this.bunifuImageButton2_MouseEnter);
-            this.bunifuImageButton2.MouseLeave += new System.EventHandler(this.bunifuImageButton2_MouseLeave);
-            // 
             // bt_usuarios
             // 
             this.bt_usuarios.BackColor = System.Drawing.Color.Transparent;
@@ -118,7 +89,7 @@
             this.bt_usuarios.Location = new System.Drawing.Point(515, 414);
             this.bt_usuarios.Name = "bt_usuarios";
             this.bt_usuarios.Size = new System.Drawing.Size(95, 88);
-            this.bt_usuarios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bt_usuarios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bt_usuarios.TabIndex = 0;
             this.bt_usuarios.TabStop = false;
             this.bt_usuarios.Zoom = 10;
@@ -138,14 +109,11 @@
             this.Controls.Add(this.lbHora);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.lbEmpleados);
-            this.Controls.Add(this.bunifuImageButton2);
             this.Controls.Add(this.lbUsuarios);
             this.Controls.Add(this.bt_usuarios);
             this.Name = "Page_Inicio";
             this.Size = new System.Drawing.Size(622, 543);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_usuarios)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -156,8 +124,6 @@
 
         private Bunifu.Framework.UI.BunifuImageButton bt_usuarios;
         private System.Windows.Forms.Label lbUsuarios;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
-        private System.Windows.Forms.Label lbEmpleados;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lbHora;

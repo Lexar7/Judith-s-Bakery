@@ -1,6 +1,6 @@
 ﻿namespace Judith_s_Bakery.Forms
 {
-    partial class CrearUsuario
+    partial class CrearEmpleado
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CrearUsuario));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CrearEmpleado));
             this.lb_titulo = new System.Windows.Forms.Label();
             this.cb_cargo = new System.Windows.Forms.ComboBox();
             this.cb_dia = new System.Windows.Forms.ComboBox();
@@ -57,9 +57,9 @@
             this.lb_titulo.ForeColor = System.Drawing.Color.OrangeRed;
             this.lb_titulo.Location = new System.Drawing.Point(91, 9);
             this.lb_titulo.Name = "lb_titulo";
-            this.lb_titulo.Size = new System.Drawing.Size(218, 36);
+            this.lb_titulo.Size = new System.Drawing.Size(259, 36);
             this.lb_titulo.TabIndex = 0;
-            this.lb_titulo.Text = "Nuevo Usuario";
+            this.lb_titulo.Text = "Nuevo Empleado";
             // 
             // cb_cargo
             // 
@@ -383,7 +383,7 @@
             this.bt_modificar.Visible = false;
             this.bt_modificar.Click += new System.EventHandler(this.bt_modificar_Click);
             // 
-            // CrearUsuario
+            // CrearEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -409,7 +409,7 @@
             this.Controls.Add(this.tb_fecha);
             this.Controls.Add(this.bt_modificar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "CrearUsuario";
+            this.Name = "CrearEmpleado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CrearUsuario";
             this.ResumeLayout(false);

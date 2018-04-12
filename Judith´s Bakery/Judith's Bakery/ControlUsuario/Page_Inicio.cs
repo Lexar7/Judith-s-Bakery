@@ -25,12 +25,12 @@ namespace Judith_s_Bakery
 
         private void bunifuImageButton2_MouseEnter(object sender, EventArgs e)
         {
-            lbEmpleados.ForeColor = Color.Orange;
+            
         }
 
         private void bunifuImageButton2_MouseLeave(object sender, EventArgs e)
         {
-            lbEmpleados.ForeColor = Color.Black;
+            
         }
 
         private void bunifuImageButton1_MouseEnter(object sender, EventArgs e)
@@ -45,7 +45,7 @@ namespace Judith_s_Bakery
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
-            Usuarios user = new Usuarios();
+            Empleados user = new Empleados();
             user.Show();
         }
     }

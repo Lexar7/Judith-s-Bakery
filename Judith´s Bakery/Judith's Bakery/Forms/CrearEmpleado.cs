@@ -13,14 +13,14 @@ using System.Data.SqlClient;
 namespace Judith_s_Bakery.Forms
 {
    
-    public partial class CrearUsuario : Form
+    public partial class CrearEmpleado : Form
     {
         DataBase db = new DataBase();
-        Usuarios user = new Usuarios();
+        Empleados user = new Empleados();
         Encriptar_Desencriptar enc = new Encriptar_Desencriptar();
         
 
-        public CrearUsuario()
+        public CrearEmpleado()
         {
             InitializeComponent();
             cb_año.Text = "Año";

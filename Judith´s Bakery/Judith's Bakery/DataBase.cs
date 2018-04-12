@@ -10,12 +10,12 @@ namespace Judith_s_Bakery
 {
     class DataBase
     {
-        SqlConnection conexion = new SqlConnection("Data Source=EDUAR7;Initial Catalog=CaceresCar;Integrated Security=True");
+        SqlConnection conexion = new SqlConnection("Data Source=EDUAR7;Initial Catalog=JudithBakery;Integrated Security=True");
         public SqlCommand cmd;
         public static SqlConnection Conexion()
         {
             //Hacemos conexion a la BD
-            SqlConnection cn = new SqlConnection("Data Source=EDUAR7;Initial Catalog=CaceresCar;Integrated Security=True");
+            SqlConnection cn = new SqlConnection("Data Source=EDUAR7;Initial Catalog=JudithBakery;Integrated Security=True");
             cn.Open(); //Abrimos la conexion
             return cn;
         }

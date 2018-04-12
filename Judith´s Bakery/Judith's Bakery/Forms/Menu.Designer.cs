@@ -31,11 +31,11 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.sidemenu = new System.Windows.Forms.Panel();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bt_proveedores = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bt_inventario = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bt_ayuda = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bt_estatadisticas = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bt_cars = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bt_reportes = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bt_compra = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bt_inicio = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,6 +48,7 @@
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bt_menu = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.page_Invetario1 = new Judith_s_Bakery.Page_Invetario();
             this.page_Estadisticas1 = new Judith_s_Bakery.Page_Estadisticas();
             this.page_Ayuda1 = new Judith_s_Bakery.Page_Ayuda();
@@ -67,11 +68,11 @@
             // sidemenu
             // 
             this.sidemenu.BackColor = System.Drawing.Color.White;
-            this.sidemenu.Controls.Add(this.bunifuFlatButton1);
+            this.sidemenu.Controls.Add(this.bt_proveedores);
             this.sidemenu.Controls.Add(this.bt_inventario);
             this.sidemenu.Controls.Add(this.bt_ayuda);
-            this.sidemenu.Controls.Add(this.bt_estatadisticas);
-            this.sidemenu.Controls.Add(this.bt_cars);
+            this.sidemenu.Controls.Add(this.bt_reportes);
+            this.sidemenu.Controls.Add(this.bt_compra);
             this.sidemenu.Controls.Add(this.bt_inicio);
             this.sidemenu.Controls.Add(this.panel2);
             this.sidemenu.Dock = System.Windows.Forms.DockStyle.Left;
@@ -81,41 +82,41 @@
             this.sidemenu.Size = new System.Drawing.Size(214, 543);
             this.sidemenu.TabIndex = 0;
             // 
-            // bunifuFlatButton1
+            // bt_proveedores
             // 
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.DarkGray;
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = " Clientes";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.ForeColor = System.Drawing.Color.Black;
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton1.Iconimage")));
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 30;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 70D;
-            this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(0, 321);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.Silver;
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(214, 48);
-            this.bunifuFlatButton1.TabIndex = 6;
-            this.bunifuFlatButton1.Text = " Clientes";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(56)))), ((int)(((byte)(91)))));
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            this.bt_proveedores.Activecolor = System.Drawing.Color.DarkGray;
+            this.bt_proveedores.BackColor = System.Drawing.Color.White;
+            this.bt_proveedores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_proveedores.BorderRadius = 0;
+            this.bt_proveedores.ButtonText = " Proveedores";
+            this.bt_proveedores.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_proveedores.DisabledColor = System.Drawing.Color.Gray;
+            this.bt_proveedores.ForeColor = System.Drawing.Color.Black;
+            this.bt_proveedores.Iconcolor = System.Drawing.Color.Transparent;
+            this.bt_proveedores.Iconimage = ((System.Drawing.Image)(resources.GetObject("bt_proveedores.Iconimage")));
+            this.bt_proveedores.Iconimage_right = null;
+            this.bt_proveedores.Iconimage_right_Selected = null;
+            this.bt_proveedores.Iconimage_Selected = null;
+            this.bt_proveedores.IconMarginLeft = 30;
+            this.bt_proveedores.IconMarginRight = 0;
+            this.bt_proveedores.IconRightVisible = false;
+            this.bt_proveedores.IconRightZoom = 0D;
+            this.bt_proveedores.IconVisible = true;
+            this.bt_proveedores.IconZoom = 70D;
+            this.bt_proveedores.IsTab = false;
+            this.bt_proveedores.Location = new System.Drawing.Point(0, 321);
+            this.bt_proveedores.Name = "bt_proveedores";
+            this.bt_proveedores.Normalcolor = System.Drawing.Color.White;
+            this.bt_proveedores.OnHovercolor = System.Drawing.Color.Silver;
+            this.bt_proveedores.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bt_proveedores.selected = false;
+            this.bt_proveedores.Size = new System.Drawing.Size(214, 48);
+            this.bt_proveedores.TabIndex = 6;
+            this.bt_proveedores.Text = " Proveedores";
+            this.bt_proveedores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_proveedores.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(56)))), ((int)(((byte)(91)))));
+            this.bt_proveedores.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_proveedores.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
             // 
             // bt_inventario
             // 
@@ -139,7 +140,7 @@
             this.bt_inventario.IconVisible = true;
             this.bt_inventario.IconZoom = 70D;
             this.bt_inventario.IsTab = false;
-            this.bt_inventario.Location = new System.Drawing.Point(0, 375);
+            this.bt_inventario.Location = new System.Drawing.Point(0, 267);
             this.bt_inventario.Name = "bt_inventario";
             this.bt_inventario.Normalcolor = System.Drawing.Color.White;
             this.bt_inventario.OnHovercolor = System.Drawing.Color.Silver;
@@ -189,77 +190,77 @@
             this.bt_ayuda.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_ayuda.Click += new System.EventHandler(this.bt_ayuda_Click);
             // 
-            // bt_estatadisticas
+            // bt_reportes
             // 
-            this.bt_estatadisticas.Activecolor = System.Drawing.Color.DarkGray;
-            this.bt_estatadisticas.BackColor = System.Drawing.Color.White;
-            this.bt_estatadisticas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_estatadisticas.BorderRadius = 0;
-            this.bt_estatadisticas.ButtonText = " Estadisticas";
-            this.bt_estatadisticas.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_estatadisticas.DisabledColor = System.Drawing.Color.Gray;
-            this.bt_estatadisticas.ForeColor = System.Drawing.Color.Black;
-            this.bt_estatadisticas.Iconcolor = System.Drawing.Color.Transparent;
-            this.bt_estatadisticas.Iconimage = ((System.Drawing.Image)(resources.GetObject("bt_estatadisticas.Iconimage")));
-            this.bt_estatadisticas.Iconimage_right = null;
-            this.bt_estatadisticas.Iconimage_right_Selected = null;
-            this.bt_estatadisticas.Iconimage_Selected = null;
-            this.bt_estatadisticas.IconMarginLeft = 30;
-            this.bt_estatadisticas.IconMarginRight = 0;
-            this.bt_estatadisticas.IconRightVisible = true;
-            this.bt_estatadisticas.IconRightZoom = 0D;
-            this.bt_estatadisticas.IconVisible = true;
-            this.bt_estatadisticas.IconZoom = 70D;
-            this.bt_estatadisticas.IsTab = false;
-            this.bt_estatadisticas.Location = new System.Drawing.Point(0, 429);
-            this.bt_estatadisticas.Name = "bt_estatadisticas";
-            this.bt_estatadisticas.Normalcolor = System.Drawing.Color.White;
-            this.bt_estatadisticas.OnHovercolor = System.Drawing.Color.Silver;
-            this.bt_estatadisticas.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bt_estatadisticas.selected = false;
-            this.bt_estatadisticas.Size = new System.Drawing.Size(214, 48);
-            this.bt_estatadisticas.TabIndex = 3;
-            this.bt_estatadisticas.Text = " Estadisticas";
-            this.bt_estatadisticas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_estatadisticas.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(56)))), ((int)(((byte)(91)))));
-            this.bt_estatadisticas.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_estatadisticas.Click += new System.EventHandler(this.bunifuFlatButton3_Click);
+            this.bt_reportes.Activecolor = System.Drawing.Color.DarkGray;
+            this.bt_reportes.BackColor = System.Drawing.Color.White;
+            this.bt_reportes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_reportes.BorderRadius = 0;
+            this.bt_reportes.ButtonText = " Reportes";
+            this.bt_reportes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_reportes.DisabledColor = System.Drawing.Color.Gray;
+            this.bt_reportes.ForeColor = System.Drawing.Color.Black;
+            this.bt_reportes.Iconcolor = System.Drawing.Color.Transparent;
+            this.bt_reportes.Iconimage = ((System.Drawing.Image)(resources.GetObject("bt_reportes.Iconimage")));
+            this.bt_reportes.Iconimage_right = null;
+            this.bt_reportes.Iconimage_right_Selected = null;
+            this.bt_reportes.Iconimage_Selected = null;
+            this.bt_reportes.IconMarginLeft = 30;
+            this.bt_reportes.IconMarginRight = 0;
+            this.bt_reportes.IconRightVisible = true;
+            this.bt_reportes.IconRightZoom = 0D;
+            this.bt_reportes.IconVisible = true;
+            this.bt_reportes.IconZoom = 70D;
+            this.bt_reportes.IsTab = false;
+            this.bt_reportes.Location = new System.Drawing.Point(0, 429);
+            this.bt_reportes.Name = "bt_reportes";
+            this.bt_reportes.Normalcolor = System.Drawing.Color.White;
+            this.bt_reportes.OnHovercolor = System.Drawing.Color.Silver;
+            this.bt_reportes.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bt_reportes.selected = false;
+            this.bt_reportes.Size = new System.Drawing.Size(214, 48);
+            this.bt_reportes.TabIndex = 3;
+            this.bt_reportes.Text = " Reportes";
+            this.bt_reportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_reportes.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(56)))), ((int)(((byte)(91)))));
+            this.bt_reportes.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_reportes.Click += new System.EventHandler(this.bunifuFlatButton3_Click);
             // 
-            // bt_cars
+            // bt_compra
             // 
-            this.bt_cars.Activecolor = System.Drawing.Color.DarkGray;
-            this.bt_cars.BackColor = System.Drawing.Color.White;
-            this.bt_cars.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_cars.BorderRadius = 0;
-            this.bt_cars.ButtonText = "Vehiculos";
-            this.bt_cars.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_cars.DisabledColor = System.Drawing.Color.Gray;
-            this.bt_cars.ForeColor = System.Drawing.Color.Black;
-            this.bt_cars.Iconcolor = System.Drawing.Color.Transparent;
-            this.bt_cars.Iconimage = ((System.Drawing.Image)(resources.GetObject("bt_cars.Iconimage")));
-            this.bt_cars.Iconimage_right = null;
-            this.bt_cars.Iconimage_right_Selected = null;
-            this.bt_cars.Iconimage_Selected = null;
-            this.bt_cars.IconMarginLeft = 30;
-            this.bt_cars.IconMarginRight = 0;
-            this.bt_cars.IconRightVisible = true;
-            this.bt_cars.IconRightZoom = 0D;
-            this.bt_cars.IconVisible = true;
-            this.bt_cars.IconZoom = 80D;
-            this.bt_cars.IsTab = false;
-            this.bt_cars.Location = new System.Drawing.Point(0, 267);
-            this.bt_cars.Name = "bt_cars";
-            this.bt_cars.Normalcolor = System.Drawing.Color.White;
-            this.bt_cars.OnHovercolor = System.Drawing.Color.Silver;
-            this.bt_cars.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bt_cars.selected = false;
-            this.bt_cars.Size = new System.Drawing.Size(214, 48);
-            this.bt_cars.TabIndex = 2;
-            this.bt_cars.Text = "Vehiculos";
-            this.bt_cars.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_cars.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(56)))), ((int)(((byte)(91)))));
-            this.bt_cars.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_cars.Click += new System.EventHandler(this.bt_cars_Click);
+            this.bt_compra.Activecolor = System.Drawing.Color.DarkGray;
+            this.bt_compra.BackColor = System.Drawing.Color.White;
+            this.bt_compra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_compra.BorderRadius = 0;
+            this.bt_compra.ButtonText = " Comprar";
+            this.bt_compra.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_compra.DisabledColor = System.Drawing.Color.Gray;
+            this.bt_compra.ForeColor = System.Drawing.Color.Black;
+            this.bt_compra.Iconcolor = System.Drawing.Color.Transparent;
+            this.bt_compra.Iconimage = ((System.Drawing.Image)(resources.GetObject("bt_compra.Iconimage")));
+            this.bt_compra.Iconimage_right = null;
+            this.bt_compra.Iconimage_right_Selected = null;
+            this.bt_compra.Iconimage_Selected = null;
+            this.bt_compra.IconMarginLeft = 30;
+            this.bt_compra.IconMarginRight = 0;
+            this.bt_compra.IconRightVisible = true;
+            this.bt_compra.IconRightZoom = 0D;
+            this.bt_compra.IconVisible = true;
+            this.bt_compra.IconZoom = 70D;
+            this.bt_compra.IsTab = false;
+            this.bt_compra.Location = new System.Drawing.Point(0, 375);
+            this.bt_compra.Name = "bt_compra";
+            this.bt_compra.Normalcolor = System.Drawing.Color.White;
+            this.bt_compra.OnHovercolor = System.Drawing.Color.Silver;
+            this.bt_compra.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bt_compra.selected = false;
+            this.bt_compra.Size = new System.Drawing.Size(214, 48);
+            this.bt_compra.TabIndex = 2;
+            this.bt_compra.Text = " Comprar";
+            this.bt_compra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_compra.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(56)))), ((int)(((byte)(91)))));
+            this.bt_compra.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_compra.Click += new System.EventHandler(this.bt_cars_Click);
             // 
             // bt_inicio
             // 
@@ -383,6 +384,7 @@
             this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bunifuImageButton3.TabIndex = 2;
             this.bunifuImageButton3.TabStop = false;
+            this.toolTip1.SetToolTip(this.bunifuImageButton3, "Minimizar");
             this.bunifuImageButton3.Zoom = 10;
             this.bunifuImageButton3.Click += new System.EventHandler(this.bunifuImageButton3_Click);
             // 
@@ -397,6 +399,7 @@
             this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bunifuImageButton2.TabIndex = 1;
             this.bunifuImageButton2.TabStop = false;
+            this.toolTip1.SetToolTip(this.bunifuImageButton2, "Cerrar");
             this.bunifuImageButton2.Zoom = 10;
             this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
             // 
@@ -509,8 +512,8 @@
         private System.Windows.Forms.Panel panel2;
         private Bunifu.Framework.UI.BunifuFlatButton bt_inicio;
         private Bunifu.Framework.UI.BunifuFlatButton bt_ayuda;
-        private Bunifu.Framework.UI.BunifuFlatButton bt_estatadisticas;
-        private Bunifu.Framework.UI.BunifuFlatButton bt_cars;
+        private Bunifu.Framework.UI.BunifuFlatButton bt_reportes;
+        private Bunifu.Framework.UI.BunifuFlatButton bt_compra;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox logo;
@@ -524,10 +527,11 @@
         private Page_Inicio page_Inicio1;
         private Page_Vehiculos page_Vehiculos1;
         private Bunifu.Framework.UI.BunifuFlatButton bt_inventario;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private Bunifu.Framework.UI.BunifuFlatButton bt_proveedores;
         private Page_Invetario page_Invetario1;
         private Page_Estadisticas page_Estadisticas1;
         private Page_Ayuda page_Ayuda1;
         private Page_Clientes page_Clientes1;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

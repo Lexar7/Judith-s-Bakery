@@ -28,8 +28,8 @@ namespace Judith_s_Bakery
         {
             try
             {
-                //Comando para llamar la tabla Usuarios
-                SqlCommand cmd = new SqlCommand("Select Nombre, Cargo, Apellido FROM Usuarios WHERE Usuario = @user AND Contraseña =@password", cn);
+                //Comando para llamar la tabla Empleado
+                SqlCommand cmd = new SqlCommand("Select Nombre, Cargo FROM Empleado WHERE Usuario = @user AND Contraseña =@password", cn);
                 cmd.Parameters.AddWithValue("user", usuario); //Igualamos user con el parametro usuario
                 cmd.Parameters.AddWithValue("password", contraseña); //Igualamos password con el parametro contraseña
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
