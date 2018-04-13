@@ -232,7 +232,7 @@
             this.bt_compra.BackColor = System.Drawing.Color.White;
             this.bt_compra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bt_compra.BorderRadius = 0;
-            this.bt_compra.ButtonText = " Comprar";
+            this.bt_compra.ButtonText = " Compra";
             this.bt_compra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bt_compra.DisabledColor = System.Drawing.Color.Gray;
             this.bt_compra.ForeColor = System.Drawing.Color.Black;
@@ -256,7 +256,7 @@
             this.bt_compra.selected = false;
             this.bt_compra.Size = new System.Drawing.Size(214, 48);
             this.bt_compra.TabIndex = 2;
-            this.bt_compra.Text = " Comprar";
+            this.bt_compra.Text = " Compra";
             this.bt_compra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_compra.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(56)))), ((int)(((byte)(91)))));
             this.bt_compra.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

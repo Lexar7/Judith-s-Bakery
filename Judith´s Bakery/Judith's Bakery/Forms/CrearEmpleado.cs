@@ -23,9 +23,9 @@ namespace Judith_s_Bakery.Forms
         public CrearEmpleado()
         {
             InitializeComponent();
-            cb_año.Text = "Año";
+            //cb_año.Text = "Año";
             //tener los años en el cb_año hasta la actualidad
-            cb_año.DataSource = Enumerable.Range(1910, DateTime.Now.Year - 1910 + 1).ToList();
+           //cb_año.DataSource = Enumerable.Range(1910, DateTime.Now.Year - 1910 + 1).ToList();
         }
 
         private void bunifuMaterialTextbox4_OnValueChanged(object sender, EventArgs e)
@@ -56,16 +56,16 @@ namespace Judith_s_Bakery.Forms
 
         private void bt_ingresar_Click(object sender, EventArgs e)
         {
-            string agregar = "insert into Usuarios values( '" + txtNombre.Text + "', '" + txtApellido.Text + "', '" + txtDireccion.Text + "', '" + cb_dia.Text + "-" + cb_mes.Text + "-" + cb_año.Text + "', " + txtTelefono.Text + ", '" + txtUser.Text + "','" + enc.EncryptKey(tb_contraseña.Text) + "', '" + cb_cargo.Text + "')";
+            string agregar = "insert into Empleado values( '" + txtNombre.Text + "', '" + txtDireccion.Text + "', '" + txtEmail.Text + "', '" + txtTelefono.Text + "','" + cb_sexo.Text + "','" + txtDUI.Text + "','" + txtNIT.Text + "','" + txtSueldo.Text + "', '" + txtUser.Text + "','" + enc.EncryptKey(tb_contraseña.Text) + "', '" + cb_cargo.Text + "', '" + cb_activo.Text + "')";
             if (db.Insertar(agregar))//llamamos a la clase DataBase con el metodo Insertar y le pasamos el parametro
             {
-                MessageBox.Show("Usuario agregado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);             
+                MessageBox.Show("Empleado agregado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);             
                 this.Close();
                 user.Show();
             }
             else
             {
-                MessageBox.Show("No se pudo agregar el usuario", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("No se pudo agregar el empleado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
            
         }
@@ -79,16 +79,16 @@ namespace Judith_s_Bakery.Forms
         private void bt_modificar_Click(object sender, EventArgs e)
         {
             //Escribimos los campos que queremos modificar
-            string actualizar = "Nombre= '" + txtNombre.Text + "', Apellido = '" + txtApellido.Text + "', Direccion = '" + txtDireccion.Text + "', Telefono = '" + txtTelefono.Text + "', Usuario='" + txtUser.Text + "', Contraseña= '" + enc.EncryptKey(tb_contraseña.Text) + "', Cargo='" + cb_cargo.Text + "'";
+            string actualizar = "Nombre= '" + txtNombre.Text + "', Direccion = '" + txtDireccion.Text + "', Email = '" + txtEmail.Text + "', Telefono = '" + txtTelefono.Text + "', Usuario='" + txtUser.Text + "', Contraseña= '" + enc.EncryptKey(tb_contraseña.Text) + "', Cargo='" + cb_cargo.Text + "'";
             if (db.Actualizar("Usuarios", actualizar, "IdUsuario =" + lb_numeroID.Text))//le pasamos los parametros de nuestro metodo Actualizar que se encuentra en la clase DataBase
             {
-                MessageBox.Show("Usuario actualizado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Empleado actualizado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
                 user.Show();
             }
             else
             {
-                MessageBox.Show("No se pudo modificar el usuario", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("No se pudo modificar el empleado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

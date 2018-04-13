@@ -36,6 +36,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.bt_ingresar = new System.Windows.Forms.Button();
@@ -43,7 +44,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -138,6 +138,14 @@
             this.panel1.Size = new System.Drawing.Size(378, 458);
             this.panel1.TabIndex = 7;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(153, 366);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.TabIndex = 3;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -145,20 +153,20 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(23, 415);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(232, 34);
+            this.label4.Size = new System.Drawing.Size(251, 34);
             this.label4.TabIndex = 2;
-            this.label4.Text = "© Todos los derechos reservados a \r\n   Caceres\'s Car e Informatic Solutions.";
+            this.label4.Text = "© Todos los derechos reservados a \r\n   Panadería Judith e Informatic Solutions.";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(44, 282);
+            this.label1.Location = new System.Drawing.Point(49, 272);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(315, 56);
+            this.label1.Size = new System.Drawing.Size(308, 84);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Nuestro objetivo es hacer \r\nde tu vehiculo algo unico!";
+            this.label1.Text = "El mejor pan dulce \r\ntradicional lo encuentras \r\nen Panadería Judith!\r\n";
             // 
             // bt_ingresar
             // 
@@ -218,14 +226,6 @@
             // 
             this.bunifuElipse1.ElipseRadius = 50;
             this.bunifuElipse1.TargetControl = this;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(153, 366);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 13);
-            this.label5.TabIndex = 3;
             // 
             // InicioSesion
             // 

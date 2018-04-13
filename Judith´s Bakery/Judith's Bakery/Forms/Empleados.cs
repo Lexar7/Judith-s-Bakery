@@ -87,15 +87,15 @@ namespace Judith_s_Bakery.Forms
             cu.lb_numeroID.Visible = true;
             cu.bt_modificar.Visible = true;          
             cu.lb_titulo.Text = "Modificar Usuario";
-            cu.cb_dia.Visible = false;
-            cu.cb_mes.Visible = false;
-            cu.cb_año.Visible = false;
-            cu.label2.Visible = false;
+            //cu.cb_dia.Visible = false;
+            //cu.cb_mes.Visible = false;
+            //cu.cb_año.Visible = false;
+            //cu.label2.Visible = false;
             cu.bt_ingresar.Visible = false;
             //Le mandamos a los controles del Form Crear Usuario el valor de la fila seleccionada con su contenido en cada celda
             cu.lb_numeroID.Text = dgv_id;
             cu.txtNombre.Text = dgv_nombre;
-            cu.txtApellido.Text = dgv_apellido;
+            //cu.txtApellido.Text = dgv_apellido;
             cu.txtDireccion.Text = dgv_direccion;
             cu.txtTelefono.Text = dgv_telefono;
             cu.txtUser.Text = dgv_usuario;

@@ -26,10 +26,11 @@ namespace Judith_s_Bakery
         //Metodo que permitira iniciar sesion
         public void logear(String usuario, String contraseña)
         {
+            
             try
             {
                 //Comando para llamar la tabla Empleado
-                SqlCommand cmd = new SqlCommand("Select Nombre, Cargo FROM Empleado WHERE Usuario = @user AND Contraseña =@password", cn);
+                SqlCommand cmd = new SqlCommand("Select Nombre, Cargo FROM Empleado WHERE Usuario = @user AND Contraseña = @password", cn);
                 cmd.Parameters.AddWithValue("user", usuario); //Igualamos user con el parametro usuario
                 cmd.Parameters.AddWithValue("password", contraseña); //Igualamos password con el parametro contraseña
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -119,10 +120,11 @@ namespace Judith_s_Bakery
 
         private void tb_contraseña_KeyPress(object sender, KeyPressEventArgs e)
         {
+           
             //Si se presiona la tecla Enter en el tb_contraseña entonces pasar al Menu
             if (e.KeyChar == Convert.ToChar(Keys.Enter))
             {
-                logear(tb_name.Text, tb_contraseña.Text);
+                logear(tb_name.Text, enc.EncryptKey(tb_contraseña.Text));
             }
         }
 

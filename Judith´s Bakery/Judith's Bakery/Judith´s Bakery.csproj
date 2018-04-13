@@ -101,11 +101,11 @@
     <Compile Include="ControlUsuario\Page_Invetario.Designer.cs">
       <DependentUpon>Page_Invetario.cs</DependentUpon>
     </Compile>
-    <Compile Include="ControlUsuario\Page_Vehiculos.cs">
+    <Compile Include="ControlUsuario\Page_Compra.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ControlUsuario\Page_Vehiculos.Designer.cs">
-      <DependentUpon>Page_Vehiculos.cs</DependentUpon>
+    <Compile Include="ControlUsuario\Page_Compra.Designer.cs">
+      <DependentUpon>Page_Compra.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Empleados.cs">
       <SubType>Form</SubType>
@@ -139,8 +139,8 @@
     <EmbeddedResource Include="ControlUsuario\Page_Invetario.resx">
       <DependentUpon>Page_Invetario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ControlUsuario\Page_Vehiculos.resx">
-      <DependentUpon>Page_Vehiculos.cs</DependentUpon>
+    <EmbeddedResource Include="ControlUsuario\Page_Compra.resx">
+      <DependentUpon>Page_Compra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Empleados.resx">
       <DependentUpon>Empleados.cs</DependentUpon>

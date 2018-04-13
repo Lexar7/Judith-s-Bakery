@@ -80,9 +80,9 @@
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(66, 31);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 21);
+            this.label3.Size = new System.Drawing.Size(75, 21);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Vehiculos";
+            this.label3.Text = "Compra";
             // 
             // Page_Vehiculos
             // 
