@@ -55,7 +55,7 @@ namespace Judith_s_Bakery
                 }
                 else
                 {
-                    MessageBox.Show("Usuario o contraseña incorrectos");
+                    MessageBox.Show("Usuario y/o contraseña incorrectos, o/y debe de llenar todos los campos", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
@@ -115,7 +115,14 @@ namespace Judith_s_Bakery
 
         private void bt_ingresar_Click(object sender, EventArgs e)
         {
-            logear(tb_name.Text, tb_contraseña.Text); //Ponemos el metodo logear en el boton para iniciar sesion
+            if (tb_name.Text.Length == 0 || tb_contraseña.Text.Length == 0 )
+            {
+                MessageBox.Show("Usuario y/o contraseña incorrectos, o/y debe de llenar todos los campos", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                logear(tb_name.Text, enc.EncryptKey(tb_contraseña.Text)); //Ponemos el metodo logear en el boton para iniciar sesion
+            }
         }
 
         private void tb_contraseña_KeyPress(object sender, KeyPressEventArgs e)
@@ -128,21 +135,6 @@ namespace Judith_s_Bakery
             }
         }
 
-        public bool Encryptar(String sql)
-        {
-            
-            SqlCommand cmd = new SqlCommand(sql, DataBase.Conexion()); //le pasamos el parametro al SQLCommand 
-            int i = cmd.ExecuteNonQuery();
-            DataBase.Conexion().Close();
-            if (i > 0) //Si la sentencia Sql se ejecuta correctamente se agregan los datos 
-            {
-                return true;
-
-            }
-            else //sino no se agregan los datos
-            {
-                return false;
-            }
-        }
+        
     }
 }

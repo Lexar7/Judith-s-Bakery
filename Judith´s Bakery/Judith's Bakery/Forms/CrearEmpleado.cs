@@ -16,7 +16,7 @@ namespace Judith_s_Bakery.Forms
     public partial class CrearEmpleado : Form
     {
         DataBase db = new DataBase();
-        Empleados user = new Empleados();
+        Empleados emp = new Empleados();
         Encriptar_Desencriptar enc = new Encriptar_Desencriptar();
         
 
@@ -56,12 +56,14 @@ namespace Judith_s_Bakery.Forms
 
         private void bt_ingresar_Click(object sender, EventArgs e)
         {
+
             string agregar = "insert into Empleado values( '" + txtNombre.Text + "', '" + txtDireccion.Text + "', '" + txtEmail.Text + "', '" + txtTelefono.Text + "','" + cb_sexo.Text + "','" + txtDUI.Text + "','" + txtNIT.Text + "','" + txtSueldo.Text + "', '" + txtUser.Text + "','" + enc.EncryptKey(tb_contraseña.Text) + "', '" + cb_cargo.Text + "', '" + cb_activo.Text + "')";
-            if (db.Insertar(agregar))//llamamos a la clase DataBase con el metodo Insertar y le pasamos el parametro
+            //llamamos a la clase DataBase con el metodo Insertar y le pasamos el parametro
+            if (db.Insertar(agregar))
             {
                 MessageBox.Show("Empleado agregado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);             
                 this.Close();
-                user.Show();
+                emp.Show();
             }
             else
             {
@@ -73,18 +75,18 @@ namespace Judith_s_Bakery.Forms
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
-            user.Show();
+            emp.Show();
         }
 
         private void bt_modificar_Click(object sender, EventArgs e)
         {
             //Escribimos los campos que queremos modificar
-            string actualizar = "Nombre= '" + txtNombre.Text + "', Direccion = '" + txtDireccion.Text + "', Email = '" + txtEmail.Text + "', Telefono = '" + txtTelefono.Text + "', Usuario='" + txtUser.Text + "', Contraseña= '" + enc.EncryptKey(tb_contraseña.Text) + "', Cargo='" + cb_cargo.Text + "'";
-            if (db.Actualizar("Usuarios", actualizar, "IdUsuario =" + lb_numeroID.Text))//le pasamos los parametros de nuestro metodo Actualizar que se encuentra en la clase DataBase
+            string actualizar = "Nombre= '" + txtNombre.Text + "', Direccion = '" + txtDireccion.Text + "', Email = '" + txtEmail.Text + "', Telefono = '" + txtTelefono.Text + "', Usuario='" + txtUser.Text + "', Contraseña= '" + enc.EncryptKey(tb_contraseña.Text) + "', Cargo='" + cb_cargo.Text + "', Activo = '" + cb_activo.Text + "'";
+            if (db.Actualizar("Empleado", actualizar, "IdEmpleado =" + lb_numeroID.Text))//le pasamos los parametros de nuestro metodo Actualizar que se encuentra en la clase DataBase
             {
                 MessageBox.Show("Empleado actualizado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
-                user.Show();
+                emp.Show();
             }
             else
             {

@@ -55,7 +55,7 @@
             this.lb_titulo.AutoSize = true;
             this.lb_titulo.BackColor = System.Drawing.Color.Transparent;
             this.lb_titulo.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_titulo.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lb_titulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(156)))), ((int)(((byte)(28)))));
             this.lb_titulo.Location = new System.Drawing.Point(91, 9);
             this.lb_titulo.Name = "lb_titulo";
             this.lb_titulo.Size = new System.Drawing.Size(259, 36);
@@ -64,7 +64,7 @@
             // 
             // cb_cargo
             // 
-            this.cb_cargo.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.cb_cargo.BackColor = System.Drawing.Color.White;
             this.cb_cargo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_cargo.FormattingEnabled = true;
             this.cb_cargo.Items.AddRange(new object[] {
@@ -108,16 +108,16 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtNombre.BackColor = System.Drawing.Color.White;
             this.txtNombre.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txtNombre.ForeColor = System.Drawing.Color.Black;
             this.txtNombre.HintForeColor = System.Drawing.Color.DimGray;
             this.txtNombre.HintText = "Nombre";
             this.txtNombre.isPassword = false;
-            this.txtNombre.LineFocusedColor = System.Drawing.Color.OrangeRed;
+            this.txtNombre.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtNombre.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtNombre.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
+            this.txtNombre.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtNombre.LineThickness = 3;
             this.txtNombre.Location = new System.Drawing.Point(16, 55);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
@@ -128,16 +128,16 @@
             // 
             // txtDireccion
             // 
-            this.txtDireccion.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtDireccion.BackColor = System.Drawing.Color.White;
             this.txtDireccion.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDireccion.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txtDireccion.ForeColor = System.Drawing.Color.Black;
             this.txtDireccion.HintForeColor = System.Drawing.Color.DimGray;
             this.txtDireccion.HintText = "Dirección";
             this.txtDireccion.isPassword = false;
-            this.txtDireccion.LineFocusedColor = System.Drawing.Color.OrangeRed;
+            this.txtDireccion.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtDireccion.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtDireccion.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
+            this.txtDireccion.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtDireccion.LineThickness = 3;
             this.txtDireccion.Location = new System.Drawing.Point(16, 106);
             this.txtDireccion.Margin = new System.Windows.Forms.Padding(4);
@@ -148,16 +148,16 @@
             // 
             // txtTelefono
             // 
-            this.txtTelefono.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtTelefono.BackColor = System.Drawing.Color.White;
             this.txtTelefono.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTelefono.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txtTelefono.ForeColor = System.Drawing.Color.Black;
             this.txtTelefono.HintForeColor = System.Drawing.Color.DimGray;
             this.txtTelefono.HintText = "Teléfono";
             this.txtTelefono.isPassword = false;
-            this.txtTelefono.LineFocusedColor = System.Drawing.Color.OrangeRed;
+            this.txtTelefono.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtTelefono.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtTelefono.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
+            this.txtTelefono.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtTelefono.LineThickness = 3;
             this.txtTelefono.Location = new System.Drawing.Point(217, 161);
             this.txtTelefono.Margin = new System.Windows.Forms.Padding(4);
@@ -169,16 +169,16 @@
             // 
             // txtUser
             // 
-            this.txtUser.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtUser.BackColor = System.Drawing.Color.White;
             this.txtUser.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtUser.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txtUser.ForeColor = System.Drawing.Color.Black;
             this.txtUser.HintForeColor = System.Drawing.Color.DimGray;
             this.txtUser.HintText = "Usuario";
             this.txtUser.isPassword = false;
-            this.txtUser.LineFocusedColor = System.Drawing.Color.OrangeRed;
+            this.txtUser.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtUser.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtUser.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
+            this.txtUser.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtUser.LineThickness = 3;
             this.txtUser.Location = new System.Drawing.Point(16, 310);
             this.txtUser.Margin = new System.Windows.Forms.Padding(4);
@@ -189,16 +189,16 @@
             // 
             // tb_contraseña
             // 
-            this.tb_contraseña.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tb_contraseña.BackColor = System.Drawing.Color.White;
             this.tb_contraseña.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tb_contraseña.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.tb_contraseña.ForeColor = System.Drawing.Color.DimGray;
             this.tb_contraseña.HintForeColor = System.Drawing.Color.DimGray;
             this.tb_contraseña.HintText = "";
             this.tb_contraseña.isPassword = false;
-            this.tb_contraseña.LineFocusedColor = System.Drawing.Color.OrangeRed;
+            this.tb_contraseña.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.tb_contraseña.LineIdleColor = System.Drawing.Color.Gray;
-            this.tb_contraseña.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
+            this.tb_contraseña.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.tb_contraseña.LineThickness = 3;
             this.tb_contraseña.Location = new System.Drawing.Point(16, 359);
             this.tb_contraseña.Margin = new System.Windows.Forms.Padding(4);
@@ -237,7 +237,7 @@
             this.lb_id.AutoSize = true;
             this.lb_id.BackColor = System.Drawing.Color.Transparent;
             this.lb_id.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_id.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lb_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(156)))), ((int)(((byte)(28)))));
             this.lb_id.Location = new System.Drawing.Point(10, 18);
             this.lb_id.Name = "lb_id";
             this.lb_id.Size = new System.Drawing.Size(33, 23);
@@ -250,7 +250,7 @@
             this.lb_numeroID.AutoSize = true;
             this.lb_numeroID.BackColor = System.Drawing.Color.Transparent;
             this.lb_numeroID.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_numeroID.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lb_numeroID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(156)))), ((int)(((byte)(28)))));
             this.lb_numeroID.Location = new System.Drawing.Point(35, 18);
             this.lb_numeroID.Name = "lb_numeroID";
             this.lb_numeroID.Size = new System.Drawing.Size(33, 23);
@@ -276,16 +276,16 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtEmail.BackColor = System.Drawing.Color.White;
             this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmail.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txtEmail.ForeColor = System.Drawing.Color.Black;
             this.txtEmail.HintForeColor = System.Drawing.Color.DimGray;
             this.txtEmail.HintText = "Email";
             this.txtEmail.isPassword = false;
-            this.txtEmail.LineFocusedColor = System.Drawing.Color.OrangeRed;
+            this.txtEmail.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtEmail.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtEmail.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
+            this.txtEmail.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtEmail.LineThickness = 3;
             this.txtEmail.Location = new System.Drawing.Point(16, 161);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
@@ -296,7 +296,7 @@
             // 
             // cb_sexo
             // 
-            this.cb_sexo.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.cb_sexo.BackColor = System.Drawing.Color.White;
             this.cb_sexo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_sexo.FormattingEnabled = true;
             this.cb_sexo.Items.AddRange(new object[] {
@@ -310,18 +310,18 @@
             // 
             // txtDUI
             // 
-            this.txtDUI.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtDUI.BackColor = System.Drawing.Color.White;
             this.txtDUI.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDUI.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txtDUI.ForeColor = System.Drawing.Color.Black;
             this.txtDUI.HintForeColor = System.Drawing.Color.DimGray;
             this.txtDUI.HintText = "DUI";
             this.txtDUI.isPassword = false;
-            this.txtDUI.LineFocusedColor = System.Drawing.Color.OrangeRed;
+            this.txtDUI.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtDUI.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtDUI.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
+            this.txtDUI.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtDUI.LineThickness = 3;
-            this.txtDUI.Location = new System.Drawing.Point(14, 213);
+            this.txtDUI.Location = new System.Drawing.Point(16, 213);
             this.txtDUI.Margin = new System.Windows.Forms.Padding(4);
             this.txtDUI.Name = "txtDUI";
             this.txtDUI.Size = new System.Drawing.Size(183, 33);
@@ -330,16 +330,16 @@
             // 
             // txtNIT
             // 
-            this.txtNIT.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtNIT.BackColor = System.Drawing.Color.White;
             this.txtNIT.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtNIT.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txtNIT.ForeColor = System.Drawing.Color.Black;
             this.txtNIT.HintForeColor = System.Drawing.Color.DimGray;
             this.txtNIT.HintText = "NIT";
             this.txtNIT.isPassword = false;
-            this.txtNIT.LineFocusedColor = System.Drawing.Color.OrangeRed;
+            this.txtNIT.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtNIT.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtNIT.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
+            this.txtNIT.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtNIT.LineThickness = 3;
             this.txtNIT.Location = new System.Drawing.Point(217, 213);
             this.txtNIT.Margin = new System.Windows.Forms.Padding(4);
@@ -350,16 +350,16 @@
             // 
             // txtSueldo
             // 
-            this.txtSueldo.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtSueldo.BackColor = System.Drawing.Color.White;
             this.txtSueldo.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSueldo.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txtSueldo.ForeColor = System.Drawing.Color.Black;
             this.txtSueldo.HintForeColor = System.Drawing.Color.DimGray;
             this.txtSueldo.HintText = "Sueldo";
             this.txtSueldo.isPassword = false;
-            this.txtSueldo.LineFocusedColor = System.Drawing.Color.OrangeRed;
+            this.txtSueldo.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtSueldo.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtSueldo.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
+            this.txtSueldo.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(54)))));
             this.txtSueldo.LineThickness = 3;
             this.txtSueldo.Location = new System.Drawing.Point(16, 262);
             this.txtSueldo.Margin = new System.Windows.Forms.Padding(4);
@@ -370,7 +370,7 @@
             // 
             // cb_activo
             // 
-            this.cb_activo.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.cb_activo.BackColor = System.Drawing.Color.White;
             this.cb_activo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_activo.FormattingEnabled = true;
             this.cb_activo.Items.AddRange(new object[] {
@@ -386,7 +386,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(402, 518);
             this.Controls.Add(this.cb_activo);

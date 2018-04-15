@@ -13,8 +13,9 @@ namespace Judith_s_Bakery.Forms
 {
     public partial class Empleados : Form
     {
-        string x, y;
-        string dgv_id, dgv_nombre, dgv_apellido, dgv_direccion, dgv_telefono, dgv_usuario, dgv_contraseña, dgv_cargo;
+        string DesencriptarContraseña;
+        string dgv_id, dgv_nombre, dgv_direccion, dgv_telefono, dgv_usuario, dgv_contraseña, dgv_cargo, dgv_email, dgv_sexo, dgv_DUI, dgv_NIT, dgv_sueldo, dgv_activo;
+        
         public Empleados()
         {
             InitializeComponent();
@@ -23,15 +24,12 @@ namespace Judith_s_Bakery.Forms
         Encriptar_Desencriptar enc = new Encriptar_Desencriptar();
         private void Usuarios_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'caceresCarDataSet1.Usuarios' Puede moverla o quitarla según sea necesario.
-           // this.usuariosTableAdapter1.Fill(this.caceresCarDataSet1.Usuarios);
-            
-
+            db.cargarDatos("Select * From Empleado", TablaUsuarios);
         }
 
         private void textBox1_Enter(object sender, EventArgs e)
         {
-            if (tb_buscar.Text == "Buscar Usuario")
+            if (tb_buscar.Text == "Buscar Empleado")
             {
                 tb_buscar.Text = "";
 
@@ -43,7 +41,7 @@ namespace Judith_s_Bakery.Forms
         {
             if (tb_buscar.Text == "")
             {
-                tb_buscar.Text = "Buscar Usuario";
+                tb_buscar.Text = "Buscar Empleado";
 
                 tb_buscar.ForeColor = Color.DarkGray;
             }
@@ -58,7 +56,7 @@ namespace Judith_s_Bakery.Forms
 
         public void BuscarUser(string nombre)
         {              
-                SqlCommand cmd = new SqlCommand("select IdUsuario, Nombre, Apellido, Direccion, Telefono, Usuario, Contraseña, Cargo from Usuarios where Nombre like '%"+nombre+"%'", DataBase.Conexion());
+                SqlCommand cmd = new SqlCommand("select IdEmpleado, Nombre, Direccion, Email, Telefono, DUI, NIT, Usuario, Contraseña, Cargo, Activo from Empleado where Nombre like '%"+nombre+"%'", DataBase.Conexion());
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
@@ -77,32 +75,45 @@ namespace Judith_s_Bakery.Forms
 
         private void bt_modificar_Click(object sender, EventArgs e)
         {
-            //Boton modificar, creamos el contructor para poder llamar al Form Crear Usuario
-            //y mandamos a llamar los controles de nuestro Form Crear Usuario
-            //ponemos cuales queremos que sean visibles y cuales no
-            CrearEmpleado cu = new CrearEmpleado();
-            //OJO LOS CONTROLES DEL FORM CREAR USUARIO DEBEN DE ESTAR EN PUBLICO Y NO EN PRIVADO
-            //PARA PODERLOS USAR EN OTROS FORMULARIOS
-            cu.lb_id.Visible = true;
-            cu.lb_numeroID.Visible = true;
-            cu.bt_modificar.Visible = true;          
-            cu.lb_titulo.Text = "Modificar Usuario";
-            //cu.cb_dia.Visible = false;
-            //cu.cb_mes.Visible = false;
-            //cu.cb_año.Visible = false;
-            //cu.label2.Visible = false;
-            cu.bt_ingresar.Visible = false;
-            //Le mandamos a los controles del Form Crear Usuario el valor de la fila seleccionada con su contenido en cada celda
-            cu.lb_numeroID.Text = dgv_id;
-            cu.txtNombre.Text = dgv_nombre;
-            //cu.txtApellido.Text = dgv_apellido;
-            cu.txtDireccion.Text = dgv_direccion;
-            cu.txtTelefono.Text = dgv_telefono;
-            cu.txtUser.Text = dgv_usuario;
-            cu.tb_contraseña.Text = dgv_contraseña;
-            cu.cb_cargo.Text = dgv_cargo;
-            cu.Show();
-            this.Hide();
+            try
+            {
+                //Boton modificar, creamos el contructor para poder llamar al Form Crear Usuario
+                //y mandamos a llamar los controles de nuestro Form CrearEmpleado
+                //ponemos cuales queremos que sean visibles y cuales no
+                CrearEmpleado cu = new CrearEmpleado();
+                //OJO LOS CONTROLES DEL FORM CrearEmpleado DEBEN DE ESTAR EN PUBLICO Y NO EN PRIVADO
+                //PARA PODERLOS USAR EN OTROS FORMULARIOS
+                cu.lb_id.Visible = true;
+                cu.lb_numeroID.Visible = true;
+                cu.bt_modificar.Visible = true;
+                cu.lb_titulo.Text = "Modificar Usuario";
+                //cu.cb_dia.Visible = false;
+                //cu.cb_mes.Visible = false;
+                //cu.cb_año.Visible = false;
+                //cu.label2.Visible = false;
+                cu.bt_ingresar.Visible = false;
+
+                //Le mandamos a los controles del Form CrearEmpleado el valor de la fila seleccionada con su contenido en cada celda
+                cu.lb_numeroID.Text = dgv_id;
+                cu.txtNombre.Text = dgv_nombre;
+                cu.txtDireccion.Text = dgv_direccion;
+                cu.txtTelefono.Text = dgv_telefono;
+                cu.txtUser.Text = dgv_usuario;
+                cu.tb_contraseña.Text = enc.DecryptKey(dgv_contraseña);
+                cu.cb_cargo.Text = dgv_cargo;
+                cu.txtDUI.Text = dgv_DUI;
+                cu.txtNIT.Text = dgv_NIT;
+                cu.txtEmail.Text = dgv_email;
+                cu.txtSueldo.Text = dgv_sueldo;
+                cu.cb_sexo.Text = dgv_sexo;
+                cu.cb_activo.Text = dgv_activo;
+                cu.Show();
+                this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Seleccione primero una celda de algún Empleado.", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void TablaUsuarios_SelectionChanged(object sender, EventArgs e)
@@ -112,12 +123,12 @@ namespace Judith_s_Bakery.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            lb_desencriptar.Text = enc.DecryptKey(y);
+            lb_desencriptar.Text = enc.DecryptKey(DesencriptarContraseña);
         }
 
         private void TablaUsuarios_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            y = (string)TablaUsuarios.Rows[e.RowIndex].Cells[6].Value;
+            DesencriptarContraseña = (string)TablaUsuarios.Rows[e.RowIndex].Cells[10].Value;
             button1.Visible = true;
             lb_desencriptar.Visible = true;
         }
@@ -146,41 +157,54 @@ namespace Judith_s_Bakery.Forms
         }
 
         private void bunifuImageButton5_Click(object sender, EventArgs e)
-        {           
-            if (db.Eliminar("Usuarios", "IdUsuario = " + x )) //Le pasamos los parametro a nuestro metodo Eliminar de la clase DataBase, 'x' que es la celda selecionada
+        {
+            try
             {
-                MessageBox.Show("Usuario eliminado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (MessageBox.Show("¿Esta seguro que desea eliminar al empleado " + dgv_nombre + "?", "Eliminar Empleado", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    // Le pasamos la varibale dgv_id para que tome el IdEmpleado de la fila seleccionada
+                    if (db.Eliminar("Empleado", "IdEmpleado = " + dgv_id)) 
+                    {
+                        MessageBox.Show("Empleado eliminado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                //this.usuariosTableAdapter1.Fill(this.caceresCarDataSet1.Usuarios); //Recargamos la tabla para actualizar los datos
+                        db.cargarDatos("Select * From Empleado", TablaUsuarios);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al eliminar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Error al eliminar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Seleccione primero una celda de algún Empleado.", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+                          
         }
 
         private void TablaUsuarios_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            x = TablaUsuarios.CurrentCell.Value.ToString(); // x toma el valor de la celda seleccionada en la tabla
 
-            //Cada variable tendra el valos de la fila seleccionada con sus celdas
+            //Cada variable tendra el valor de la fila seleccionada con sus celdas
             dgv_id = Convert.ToString((Int32)TablaUsuarios.Rows[e.RowIndex].Cells[0].Value);
             dgv_nombre = (string)TablaUsuarios.Rows[e.RowIndex].Cells[1].Value;
-            dgv_apellido = (string)TablaUsuarios.Rows[e.RowIndex].Cells[2].Value;
-            dgv_direccion = (string)TablaUsuarios.Rows[e.RowIndex].Cells[3].Value;
-            dgv_telefono = Convert.ToString((Int32)TablaUsuarios.Rows[e.RowIndex].Cells[4].Value);
-            dgv_usuario = (string)TablaUsuarios.Rows[e.RowIndex].Cells[5].Value;
-            dgv_contraseña = (string)TablaUsuarios.Rows[e.RowIndex].Cells[6].Value;
-            dgv_cargo = (string)TablaUsuarios.Rows[e.RowIndex].Cells[7].Value;
-
-            
-
-
+            dgv_direccion = (string)TablaUsuarios.Rows[e.RowIndex].Cells[2].Value;
+            dgv_email = (string)TablaUsuarios.Rows[e.RowIndex].Cells[3].Value;
+            dgv_telefono = (string)TablaUsuarios.Rows[e.RowIndex].Cells[4].Value;
+            dgv_sexo = (string)TablaUsuarios.Rows[e.RowIndex].Cells[5].Value;
+            dgv_DUI = (string)TablaUsuarios.Rows[e.RowIndex].Cells[6].Value;
+            dgv_NIT = (string)TablaUsuarios.Rows[e.RowIndex].Cells[7].Value;
+            dgv_sueldo = Convert.ToString((Decimal)TablaUsuarios.Rows[e.RowIndex].Cells[8].Value);
+            dgv_usuario = (string)TablaUsuarios.Rows[e.RowIndex].Cells[9].Value;
+            dgv_contraseña = (string)TablaUsuarios.Rows[e.RowIndex].Cells[10].Value;
+            dgv_cargo = (string)TablaUsuarios.Rows[e.RowIndex].Cells[11].Value;
+            dgv_activo = Convert.ToString((Boolean)TablaUsuarios.Rows[e.RowIndex].Cells[12].Value);
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             lb_ayuda.Visible = true;
         }
+     
     }
 }

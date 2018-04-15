@@ -41,3 +41,22 @@ C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\bin\
 C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.pdb
 C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Bunifu_UI_v1.5.3.dll
 C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.CrearEmpleado.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.exe.config
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.exe
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.pdb
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.exe
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.pdb
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.CrearEmpleado.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.InicioSesion.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Menu.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Ayuda.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Clientes.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Estadisticas.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Inicio.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Invetario.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Vehiculos.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.Empleados.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Properties.Resources.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.csproj.GenerateResource.Cache

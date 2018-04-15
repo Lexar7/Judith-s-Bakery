@@ -32,55 +32,55 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Empleados));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.TablaUsuarios = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.usuariosBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tb_buscar = new System.Windows.Forms.TextBox();
+            this.lb_ayuda = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bt_regresar = new Bunifu.Framework.UI.BunifuImageButton();
             this.bt_eliminar = new Bunifu.Framework.UI.BunifuImageButton();
             this.bt_modificar = new Bunifu.Framework.UI.BunifuImageButton();
             this.bt_usuarios = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.usuariosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.lb_ayuda = new System.Windows.Forms.Label();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.lb_desencriptar = new System.Windows.Forms.Label();
+            this.usuariosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TablaUsuarios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_regresar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_eliminar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_modificar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_usuarios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(67, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(276, 23);
+            this.label3.Size = new System.Drawing.Size(272, 22);
             this.label3.TabIndex = 6;
             this.label3.Text = "Empleados Panadería Judith";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(26)))), ((int)(((byte)(47)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(51)))), ((int)(((byte)(54)))));
             this.panel1.Controls.Add(this.bunifuImageButton3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.bunifuImageButton2);
@@ -93,7 +93,7 @@
             // 
             // bunifuImageButton3
             // 
-            this.bunifuImageButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(26)))), ((int)(((byte)(47)))));
+            this.bunifuImageButton3.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.Image")));
             this.bunifuImageButton3.ImageActive = null;
@@ -113,13 +113,13 @@
             this.pictureBox1.Location = new System.Drawing.Point(8, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(53, 52);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
             // bunifuImageButton2
             // 
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(26)))), ((int)(((byte)(47)))));
+            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
             this.bunifuImageButton2.ImageActive = null;
@@ -135,13 +135,14 @@
             // 
             // TablaUsuarios
             // 
+            this.TablaUsuarios.AllowUserToAddRows = false;
+            this.TablaUsuarios.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.TablaUsuarios.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.TablaUsuarios.AutoGenerateColumns = false;
             this.TablaUsuarios.BackgroundColor = System.Drawing.Color.White;
             this.TablaUsuarios.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TablaUsuarios.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(56)))), ((int)(((byte)(91)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
@@ -150,15 +151,21 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.TablaUsuarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.TablaUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaUsuarios.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column2});
-            this.TablaUsuarios.DataSource = this.usuariosBindingSource1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TablaUsuarios.DefaultCellStyle = dataGridViewCellStyle3;
             this.TablaUsuarios.DoubleBuffered = true;
             this.TablaUsuarios.EnableHeadersVisualStyles = false;
             this.TablaUsuarios.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(56)))), ((int)(((byte)(91)))));
             this.TablaUsuarios.HeaderForeColor = System.Drawing.Color.White;
             this.TablaUsuarios.Location = new System.Drawing.Point(12, 118);
             this.TablaUsuarios.Name = "TablaUsuarios";
+            this.TablaUsuarios.ReadOnly = true;
             this.TablaUsuarios.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.TablaUsuarios.RowHeadersVisible = false;
             this.TablaUsuarios.Size = new System.Drawing.Size(501, 283);
@@ -166,14 +173,6 @@
             this.TablaUsuarios.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaUsuarios_CellClick);
             this.TablaUsuarios.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaUsuarios_CellDoubleClick);
             this.TablaUsuarios.SelectionChanged += new System.EventHandler(this.TablaUsuarios_SelectionChanged);
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "IdUsuario";
-            this.Column2.HeaderText = "Id";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 40;
             // 
             // usuariosBindingSource1
             // 
@@ -189,9 +188,34 @@
             this.tb_buscar.Name = "tb_buscar";
             this.tb_buscar.Size = new System.Drawing.Size(447, 26);
             this.tb_buscar.TabIndex = 19;
-            this.tb_buscar.Text = "Buscar Usuario";
+            this.tb_buscar.Text = "Buscar Empleado";
             this.tb_buscar.Enter += new System.EventHandler(this.textBox1_Enter);
             this.tb_buscar.Leave += new System.EventHandler(this.tb_buscar_Leave);
+            // 
+            // lb_ayuda
+            // 
+            this.lb_ayuda.AutoSize = true;
+            this.lb_ayuda.BackColor = System.Drawing.Color.Transparent;
+            this.lb_ayuda.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_ayuda.Location = new System.Drawing.Point(524, 325);
+            this.lb_ayuda.Name = "lb_ayuda";
+            this.lb_ayuda.Size = new System.Drawing.Size(127, 60);
+            this.lb_ayuda.TabIndex = 26;
+            this.lb_ayuda.Text = "Aqui puedes agregar, \r\nmodificar, eliminar o \r\nver los empleados\r\nexistentes! ";
+            this.lb_ayuda.Visible = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(648, 325);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(83, 75);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 25;
+            this.pictureBox2.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox2, "Ayuda");
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // bt_regresar
             // 
@@ -199,9 +223,9 @@
             this.bt_regresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bt_regresar.Image = ((System.Drawing.Image)(resources.GetObject("bt_regresar.Image")));
             this.bt_regresar.ImageActive = null;
-            this.bt_regresar.Location = new System.Drawing.Point(634, 223);
+            this.bt_regresar.Location = new System.Drawing.Point(642, 232);
             this.bt_regresar.Name = "bt_regresar";
-            this.bt_regresar.Size = new System.Drawing.Size(95, 82);
+            this.bt_regresar.Size = new System.Drawing.Size(81, 65);
             this.bt_regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bt_regresar.TabIndex = 24;
             this.bt_regresar.TabStop = false;
@@ -264,7 +288,7 @@
             this.bunifuImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
             this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(465, 67);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(465, 68);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Size = new System.Drawing.Size(46, 35);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -273,34 +297,6 @@
             this.toolTip1.SetToolTip(this.bunifuImageButton1, "Buscar");
             this.bunifuImageButton1.Zoom = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
-            // 
-            // usuariosBindingSource
-            // 
-            this.usuariosBindingSource.DataMember = "Usuarios";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(648, 325);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(83, 75);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 25;
-            this.pictureBox2.TabStop = false;
-            this.toolTip1.SetToolTip(this.pictureBox2, "Ayuda");
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // lb_ayuda
-            // 
-            this.lb_ayuda.AutoSize = true;
-            this.lb_ayuda.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_ayuda.Location = new System.Drawing.Point(524, 326);
-            this.lb_ayuda.Name = "lb_ayuda";
-            this.lb_ayuda.Size = new System.Drawing.Size(127, 60);
-            this.lb_ayuda.TabIndex = 26;
-            this.lb_ayuda.Text = "Aqui puedes agregar, \r\nmodificar, eliminar o \r\nver los usuarios\r\nexistentes! 😃";
-            this.lb_ayuda.Visible = false;
             // 
             // button1
             // 
@@ -322,6 +318,10 @@
             this.lb_desencriptar.Size = new System.Drawing.Size(0, 13);
             this.lb_desencriptar.TabIndex = 28;
             this.lb_desencriptar.Visible = false;
+            // 
+            // usuariosBindingSource
+            // 
+            this.usuariosBindingSource.DataMember = "Usuarios";
             // 
             // Empleados
             // 
@@ -353,13 +353,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TablaUsuarios)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_regresar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_eliminar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_modificar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_usuarios)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -382,7 +382,6 @@
         public System.Windows.Forms.TextBox tb_buscar;
         public Bunifu.Framework.UI.BunifuCustomDataGrid TablaUsuarios;
         private System.Windows.Forms.BindingSource usuariosBindingSource1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn apellidoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn direccionDataGridViewTextBoxColumn;

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace Judith_s_Bakery
 {
@@ -12,6 +13,8 @@ namespace Judith_s_Bakery
     {
         SqlConnection conexion = new SqlConnection("Data Source=EDUAR7;Initial Catalog=JudithBakery;Integrated Security=True");
         public SqlCommand cmd;
+        DataTable dt;
+        SqlDataAdapter da;
         public static SqlConnection Conexion()
         {
             //Hacemos conexion a la BD
@@ -20,7 +23,7 @@ namespace Judith_s_Bakery
             return cn;
         }
 
-        //Metodo de Insertar
+        //Metodo de Insertar datos a cierta tabla
         public bool Insertar(string sql)
         {
             conexion.Open();
@@ -39,6 +42,8 @@ namespace Judith_s_Bakery
             
         }
 
+
+        //Metodo para eliminar datos de cierta tabla
         public bool Eliminar(string tabla, string condicion)
         {
             conexion.Open();
@@ -57,6 +62,8 @@ namespace Judith_s_Bakery
             }
         }
 
+
+        //Metodo para actualizar los datos de cierta tabla
         public bool Actualizar(string tabla, string campos, string condicion)
         {
             conexion.Open();
@@ -72,6 +79,23 @@ namespace Judith_s_Bakery
             else //sino no se agregan los datos
             {
                 return false;
+            }
+        }
+
+
+        //Metodo para cargar datos a alguna tabla
+        public void cargarDatos(string comando, DataGridView dgv)
+        {
+            try
+            {
+                da = new SqlDataAdapter(comando, conexion);
+                dt = new DataTable();
+                da.Fill(dt);
+                dgv.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se pudo llenar la tabla: " + ex.ToString());
             }
         }
     }
