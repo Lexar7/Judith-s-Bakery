@@ -8,13 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
+using Judith_s_Bakery.Forms;
 namespace Judith_s_Bakery
 {
     public partial class InicioSesion : Form
     {
+        public static int IDEmpleadoSesion;
         Encriptar_Desencriptar enc = new Encriptar_Desencriptar();
-        string x, y;
         public InicioSesion()
         {
             InitializeComponent();
@@ -26,11 +26,10 @@ namespace Judith_s_Bakery
         //Metodo que permitira iniciar sesion
         public void logear(String usuario, String contraseña)
         {
-            
             try
             {
                 //Comando para llamar la tabla Empleado
-                SqlCommand cmd = new SqlCommand("Select Nombre, Cargo FROM Empleado WHERE Usuario = @user AND Contraseña = @password", cn);
+                SqlCommand cmd = new SqlCommand("Select Nombre, Cargo, IdEmpleado FROM Empleado WHERE Usuario = @user AND Contraseña = @password", cn);
                 cmd.Parameters.AddWithValue("user", usuario); //Igualamos user con el parametro usuario
                 cmd.Parameters.AddWithValue("password", contraseña); //Igualamos password con el parametro contraseña
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -44,6 +43,7 @@ namespace Judith_s_Bakery
                     {                                               //y si es Administrador que muestre el Menu
                         //Mandamos a llamar el form Menu y le pasamos 
                         //el parametro Nombre que segun la posicion del cmd es [0]
+                        IDEmpleadoSesion = Convert.ToInt32(dt.Rows[0][2].ToString());
                         new Menu(dt.Rows[0][0].ToString()).Show();
                     }
                     else if (dt.Rows[0][1].ToString() == "Empleado")
@@ -75,7 +75,12 @@ namespace Judith_s_Bakery
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult res = MessageBox.Show("¿Desea salir de la Aplicación?", "Judith's Bakery", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (res == DialogResult.Yes)
+            {
+                DataBase.Conexion().Close();
+                Application.Exit();
+            }
         }
 
         private void tb_contraseña_MouseEnter(object sender, EventArgs e)
@@ -133,6 +138,19 @@ namespace Judith_s_Bakery
             {
                 logear(tb_name.Text, enc.EncryptKey(tb_contraseña.Text));
             }
+        }
+
+        private void tb_contraseña_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            
+            RecuperarContraseña frm = new RecuperarContraseña();
+            frm.Show();
+            
         }
 
         

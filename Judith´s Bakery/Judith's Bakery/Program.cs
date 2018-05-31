@@ -17,7 +17,7 @@ namespace Judith_s_Bakery
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InicioSesion());
+            Application.Run(new Splash());
         }
     }
 }

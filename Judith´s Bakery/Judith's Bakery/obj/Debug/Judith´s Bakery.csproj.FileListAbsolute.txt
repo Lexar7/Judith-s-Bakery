@@ -1,62 +1,84 @@
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Caceres´s Car\bin\Debug\Judith´s Bakery.exe.config
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.exe.config
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.exe
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.pdb
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\bin\Debug\Bunifu_UI_v1.5.3.dll
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.csprojResolveAssemblyReference.cache
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.CrearUsuario.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.Empleados.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.InicioSesion.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Menu.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Ayuda.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Clientes.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Estadisticas.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Inicio.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Invetario.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Vehiculos.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.Usuarios.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Properties.Resources.resources
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.csproj.GenerateResource.Cache
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.exe
-C:\Users\Eduardo\Documents\Caceres-Car\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.pdb
-C:\Users\Eduardo\Documents\Judith´s Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.exe.config
-C:\Users\Eduardo\Documents\Judith´s Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.exe
-C:\Users\Eduardo\Documents\Judith´s Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.pdb
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.exe.config
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.exe
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.pdb
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.csprojResolveAssemblyReference.cache
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.Empleados.resources
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.InicioSesion.resources
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Menu.resources
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Ayuda.resources
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Clientes.resources
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Estadisticas.resources
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Inicio.resources
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Invetario.resources
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Vehiculos.resources
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Properties.Resources.resources
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.csproj.GenerateResource.Cache
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.exe
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.pdb
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Bunifu_UI_v1.5.3.dll
-C:\Users\Eduardo\Documents\Judith-s-Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.CrearEmpleado.resources
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.exe.config
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.csproj.ResolveComReference.cache
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.exe
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.pdb
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.exe
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.pdb
-C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\FlashControlV71.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\stdole.dll
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.ControlUsuario.Page_Empleados.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.AcercaDe.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.BackUp.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.Compra.resources
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.CrearEmpleado.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.CrearModificarMateriaPrima.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.CrearModificarCliente.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.CrearModificarProveedor.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.HistorialPedidos.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.ModificarProductoFinal.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.CrearProductoFinal.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.HistorialCompras.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.HistorialEntradaSalida.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.HistorialVenta.resources
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.InicioSesion.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.MateriaPrima.resources
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Menu.resources
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Ayuda.resources
-C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Clientes.resources
-C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Estadisticas.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Proveedor.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Reportes.resources
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Inicio.resources
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Invetario.resources
-C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Vehiculos.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Page_Clientes.resources
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.Empleados.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.ModificarEmpleado.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.Pedidos.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.ProductoFinal.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.RecuperarContraseña.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.SoporteTecnico.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.Venta.resources
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Properties.Resources.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.AsistenciaReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.ClienteReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.ProveedoresReport.resources
 C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.csproj.GenerateResource.Cache
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.AsistenciaTotalReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.InventarioMateriaPrimaReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.InventarioReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.VentasFechaReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.ReportesEmpleado.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.HistorialEmpleados.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.HistorialProductoFinal.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.HistorialMateriaPrima.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.Splash.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.ModificarMateriaPrima.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.CompraReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.EmpleadoReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.PedidosReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.VentasReporte.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.ReportesVentas.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Forms.ReporteCompra.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.ComprasDiariasReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.ComprasMensualesReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith_s_Bakery.Report.VentasMensualesReport.resources
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.exe.manifest
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\bin\Debug\Judith´s Bakery.application
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.exe.manifest
+C:\Users\Eduardo\Desktop\Judith's Bakery\Judith´s Bakery\Judith's Bakery\obj\Debug\Judith´s Bakery.application

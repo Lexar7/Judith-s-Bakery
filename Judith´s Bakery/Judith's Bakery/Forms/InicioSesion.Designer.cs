@@ -36,12 +36,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bt_ingresar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -90,6 +90,7 @@
             this.tb_contraseña.TabIndex = 6;
             this.tb_contraseña.Text = "Contraseña";
             this.tb_contraseña.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.tb_contraseña.OnValueChanged += new System.EventHandler(this.tb_contraseña_OnValueChanged);
             this.tb_contraseña.Enter += new System.EventHandler(this.tb_contraseña_Enter);
             this.tb_contraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_contraseña_KeyPress);
             this.tb_contraseña.Leave += new System.EventHandler(this.tb_contraseña_Leave);
@@ -138,6 +139,16 @@
             this.label1.Size = new System.Drawing.Size(318, 90);
             this.label1.TabIndex = 1;
             this.label1.Text = "El mejor pan dulce \r\ntradicional lo encuentras \r\nen Panadería Judith!\r\n";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(55, 77);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(239, 215);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // bt_ingresar
             // 
@@ -190,6 +201,7 @@
             this.label3.Size = new System.Drawing.Size(255, 22);
             this.label3.TabIndex = 11;
             this.label3.Text = "¿Olvidaste tu contraseña?";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             this.label3.MouseEnter += new System.EventHandler(this.label3_MouseEnter);
             this.label3.MouseLeave += new System.EventHandler(this.label3_MouseLeave);
             // 
@@ -197,16 +209,6 @@
             // 
             this.bunifuElipse1.ElipseRadius = 50;
             this.bunifuElipse1.TargetControl = this;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(55, 77);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(239, 215);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // pictureBox3
             // 

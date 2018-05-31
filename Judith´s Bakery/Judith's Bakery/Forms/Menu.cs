@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Judith_s_Bakery.Forms;
 
 namespace Judith_s_Bakery
 {
+
     public partial class Menu : Form
     {
+        
         public Menu(String nombre) //Espera que recibe parametro nombre del Form Menu
         {
             InitializeComponent();
@@ -43,7 +46,13 @@ namespace Judith_s_Bakery
 
         private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0); //Cierra todo el programa
+
+            DialogResult res = MessageBox.Show("¿Desea salir de la Aplicación?", "Judith's Bakery", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (res == DialogResult.Yes)
+            {
+                DataBase.Conexion().Close();
+                Environment.Exit(0); //Cierra todo el programa
+            }
         }
 
         private void bunifuImageButton3_Click(object sender, EventArgs e)
@@ -97,6 +106,68 @@ namespace Judith_s_Bakery
         private void bt_ayuda_Click(object sender, EventArgs e)
         {
             page_Ayuda1.BringToFront(); //Traer al frente el control de usuario
+        }
+
+        private void bt_empleados_Click(object sender, EventArgs e)
+        {
+            page_Empleados1.BringToFront(); //Traer al frente el control de empleados
+        }
+
+        private void Menu_KeyUp(object sender, KeyEventArgs e)
+        {
+
+            //CTRL+E
+            if (Convert.ToInt32(e.KeyData) == Convert.ToInt32(Keys.Control) + Convert.ToInt32(Keys.E))
+            {
+                Empleados em = new Empleados();
+                em.Show();
+                //this.Close();
+            }
+
+            //CTRL+M
+            if (Convert.ToInt32(e.KeyData) == Convert.ToInt32(Keys.Control) + Convert.ToInt32(Keys.M))
+            {
+                MateriaPrima mp = new MateriaPrima();
+                mp.Show();
+                //this.Close();
+            }
+
+            //CTRL+N
+            if (Convert.ToInt32(e.KeyData) == Convert.ToInt32(Keys.Control) + Convert.ToInt32(Keys.N))
+            {
+                ProductoFinal cp = new ProductoFinal();
+                cp.Show();
+                //this.Close();
+            }
+
+            //CTRL+B
+            if (Convert.ToInt32(e.KeyData) == Convert.ToInt32(Keys.Control) + Convert.ToInt32(Keys.B))
+            {
+                Compra p = new Compra();
+                p.Show();
+                //this.Close();
+            }
+
+            //CTRL+L
+            if (Convert.ToInt32(e.KeyData) == Convert.ToInt32(Keys.Control) + Convert.ToInt32(Keys.L))
+            {
+                Venta v = new Venta();
+                v.Show();
+                //this.Close();
+            }
+
+            //CTRL+K
+            if (Convert.ToInt32(e.KeyData) == Convert.ToInt32(Keys.Control) + Convert.ToInt32(Keys.K))
+            {
+                Pedidos p = new Pedidos();
+                p.Show();
+                //this.Close();
+            }
+
+           
+
+
+
         }
     }
 }
